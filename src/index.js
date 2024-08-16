@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactDOM from "react-dom/client";
 import ReactDOM from 'react-dom';
 import Routes from "./routes/index";
 import { Provider } from "react-redux";
