@@ -1,0 +1,79 @@
+.multi-select-dropdown {
+  display: block;
+  position: relative;
+
+  .dropdown-toggle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 8px 10px;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+    border-radius: 13px;
+    cursor: pointer;
+    min-width: 250px;
+    color: #575757;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .addTo {
+    text-wrap: nowrap;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ed2127;
+    border-radius: 15px;
+    color: #575757;
+    cursor: pointer;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    height: 30px;
+    padding: 7px 12px;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    width: max-content;
+
+    svg {
+      width: 12px;
+      margin-left: 1.3rem;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+
+  .open .dropdown-toggle {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 0px 8px;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+
+  .checkbox-label {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+
+
+    input[type='checkbox'] {
+      margin-right: 10px;
+      width: 15px;
+      height: 14px;
+      ;
+    }
+  }
+}

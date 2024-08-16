@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[8113],{68113:function(e,n,a){a.r(n),n.default={pagination:"Pagination_pagination__ye0zX",frame:"Pagination_frame__gJzRw",active:"Pagination_active__9WmOP","element-wrapper":"Pagination_element-wrapper__7-Y--",elementWrapperLeftArrow:"Pagination_elementWrapperLeftArrow__0ew9J",elementWrapperRightArrow:"Pagination_elementWrapperRightArrow__cDOrd"}}}]);
+//# sourceMappingURL=8113.9a320ba1.chunk.js.map

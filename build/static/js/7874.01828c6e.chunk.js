@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[7874],{77874:function(i,s,e){i.exports=e.p+"static/media/tickCircle.512623b0f3ec79af1078.svg"}}]);

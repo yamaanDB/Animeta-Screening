@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[3562],{96373:function(t,s,e){t.exports=e.p+"static/media/Barlow-Bold.0cb1ab864072bf9e0991.ttf"}}]);

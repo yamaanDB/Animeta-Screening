@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2318],{2318:function(t,e,i){t.exports=i.p+"static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf"}}]);

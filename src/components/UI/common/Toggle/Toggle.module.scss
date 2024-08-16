@@ -1,0 +1,39 @@
+.Switch {
+    width: 50px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    background: #D1D1D6;
+    border-radius: 15px;
+    border: 1px solid #C4C4C4;
+    position: relative;
+    cursor: pointer;
+
+    .Thumb {
+        width: 26px;
+        height: 26px;
+        left: -10%;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        position: relative;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0px 2px 8px 0px #D1D1D6;
+    }
+}
+
+.active {
+    background: #B5A0D4;
+
+    .Thumb {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        display: flex;
+        top: 0%;
+        background-color: #FFFFFF;
+        left: calc(100% - 24px);
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0px 2px 8px 0px #00000029;
+
+    }
+}

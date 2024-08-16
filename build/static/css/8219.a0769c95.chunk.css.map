@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/8219.a0769c95.chunk.css","mappings":"AAAA,gCACI","sources":["components/UI/common/Loader/loader.module.scss"],"sourcesContent":[".circularProgress {\n    background-image: conic-gradient(from 254.05deg at 50% 50%, rgba(85, 22, 164, 0.13) 0deg, #421F70 108.75deg, rgba(85, 22, 164, 0.13) 360deg)\n}"],"names":[],"sourceRoot":""}

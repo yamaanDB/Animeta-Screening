@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/5454.b4ebdb5d.chunk.js","mappings":"mKAAO,IAAMA,EAAW,WACpB,OAAOC,aAAaC,QAAQ,QAChC,C","sources":["helpers/utility.js"],"sourcesContent":["export const getToken = () => {\n    return localStorage.getItem(\"token\");\n};"],"names":["getToken","localStorage","getItem"],"sourceRoot":""}

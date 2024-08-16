@@ -1,0 +1,172 @@
+[
+    {
+        "state": "AN",
+        "sdcaName": "ANDAMAN ISLANDS",
+        "stdCode": "3192"
+    },
+    {
+        "state": "AN",
+        "sdcaName":"NICOBAR ISLANDS",
+        "stdCode": "3193" 
+    },
+    {
+        "state": "AP",
+        "sdcaName": "PENUKONDA",
+        "stdCode": "8557"
+    },
+    {
+        "state": "AP",
+        "sdcaName": "URAVAKONDA",
+        "stdCode": "8496"
+    },
+    {
+        "state": "BR",
+        "sdcaName": "ARRAH",
+        "stdCode": "6182"
+    },
+    {
+        "state": "BR",
+        "sdcaName": "AMARPUR",
+        "stdCode": "6420"
+    },
+    {
+        "state": "GJ",
+        "sdcaName": "AMRELI",
+        "stdCode": "2792"
+    },
+    {
+        "state": "GJ",
+        "sdcaName": "DAMNAGAR",
+        "stdCode": "2793"
+    },
+    {
+        "state": "KL",
+        "sdcaName": "CALICUT",
+        "stdCode": "495"
+    },
+    {
+        "state": "KL",
+        "sdcaName": "KALPETTA",
+        "stdCode": "4936"
+    },
+    {
+        "state": "MH",
+        "sdcaName": "SANGAMNER",
+        "stdCode": "2425"
+    },
+    {
+        "state": "MH",
+        "sdcaName": "SHEVGAON",
+        "stdCode": "2429"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "CHENNAI",
+        "stdCode": "44"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "AVANASHI",
+        "stdCode": "4296"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "ANAMALAI",
+        "stdCode": "4253"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "COIMBATORE",
+        "stdCode": "422"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "METTUPALAYAM",
+        "stdCode": "4254"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "TIRUPUR",
+        "stdCode": "421"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "POLLACHI",
+        "stdCode": "4259"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "UDUMALPET",
+        "stdCode": "4252"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "VILLUPURAM",
+        "stdCode": "4146"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "DHARMAPURI",
+        "stdCode": "4342"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "BHAVANI",
+        "stdCode": "4256"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "ERODE",
+        "stdCode": "424"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "KOTAGIRI",
+        "stdCode": "4266"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "SALEM",
+        "stdCode": "427"
+    },
+    {
+        "state": "TN",
+        "sdcaName": "PERAMBALUR",
+        "stdCode": "4328"
+    },
+    {
+        "state": "UPE",
+        "sdcaName": "DEORIA",
+        "stdCode": "5568"
+    },
+    {
+        "state": "UPE",
+        "sdcaName": "SALEMPUR-I (SALEMPUR)",
+        "stdCode": "5566"
+    },
+    {
+        "state": "WB",
+        "sdcaName": "GANGTOK",
+        "stdCode": "3592"
+    },
+    {
+        "state": "WB",
+        "sdcaName": "ALIPURDUAR",
+        "stdCode": "3564"
+    },
+    {
+        "state": "WB",
+        "sdcaName": "ADRA",
+        "stdCode": "3251"
+    },
+    {
+        "state": "WB",
+        "sdcaName": "BOLPUR",
+        "stdCode": "3463"
+    },
+    {
+        "state": "WB",
+        "sdcaName": "RAMPUR HAT",
+        "stdCode": "3461"
+    }
+]

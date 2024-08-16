@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[5728],{5728:function(e,t,i){e.exports=i.p+"static/media/Barlow-SemiBold.8247eaeb0799c0acafc6.ttf"}}]);

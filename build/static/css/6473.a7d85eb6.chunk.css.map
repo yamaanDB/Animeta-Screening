@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/6473.a7d85eb6.chunk.css","mappings":"AAAA,YAEE,wBADA,wBACA","sources":["components/UI/common/ErrorMessage/ErrorMessage.scss"],"sourcesContent":[".form-error {\n  font-size: 14px !important;\n  color: #f90500 !important;\n}\n"],"names":[],"sourceRoot":""}

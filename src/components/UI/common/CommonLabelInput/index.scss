@@ -1,0 +1,100 @@
+// .prefixInputs {
+//   background: #ffffff;
+//   box-sizing: border-box;
+//   border-radius: 8px;
+//   outline: none;
+//   height: 45px !important;
+//   font-size: 14px !important;
+//   padding: 8px 1px 8px 1px;
+//   border: 1.5px solid #d2d3d4;
+//   gap: 8px;
+//   padding: 6px;
+//   &:focus {
+//     border-color: 1.5px solid #fff !important;
+//     // border-right: 2px solid #090909;
+//     // border-color: #d2d3d4;
+//   }
+//   &::placeholder {
+//     font-size: 14px;
+//     font-weight: 500;
+//     color: #a5a8a9;
+//     line-height: 20px;
+//   }
+// }
+.prefixInputs {
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  height: 45px !important;
+  font-size: 14px !important;
+  padding: 8px 1px 8px 1px;
+  border: 1.5px solid #d2d3d4;
+  gap: 8px;
+  padding: 6px;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.prefixInputs:focus {
+  border-color: 1.5px solid #090909;
+  border-right: 2px solid #090909;
+}
+
+.prefixInputs::placeholder {
+  font-family: "Barlow";
+  font-size: 14px;
+  font-weight: 500;
+  color: #a5a8a9;
+  line-height: 20px;
+}
+
+.disabled {
+  // background: #f9f9f9;
+}
+
+.prefixInputs:disabled {
+  /* Change the background color for disabled state */
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: nowrap !important;
+
+  &:focus {
+    border-color: 1.5px solid #090909;
+    border-right: 2px solid #090909;
+  }
+}
+
+.input-group-text {
+  background: #f9f9f9;
+  border: none;
+  padding: 0px 18px;
+  color: #1e2528;
+  font-weight: 600;
+  outline: none;
+  border-color: #d2d3d4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 45px !important;
+  font-size: 14px !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  &:focus {
+    border-color: 1.5px solid #090909;
+    border-right: 2px solid #090909;
+  }
+}
+
+.filedDisabled {
+  color: #d2d3d4 !important;
+  background: #f9f9f9;
+}
+
+.filedDisabled:disabled {
+  color: #808080 !important;
+  background-color: #fff !important;
+}

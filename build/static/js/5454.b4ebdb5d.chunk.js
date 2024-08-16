@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[5454],{55454:function(n,t,e){e.r(t),e.d(t,{getToken:function(){return o}});var o=function(){return localStorage.getItem("token")}}}]);
+//# sourceMappingURL=5454.b4ebdb5d.chunk.js.map

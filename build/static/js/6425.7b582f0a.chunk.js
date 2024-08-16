@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[6425],{36425:function(t,e,i){t.exports=i.p+"static/media/Barlow-Light.19f244ecb11218b9a7de.ttf"}}]);

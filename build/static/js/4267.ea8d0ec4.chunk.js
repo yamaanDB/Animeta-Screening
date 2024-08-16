@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[4267],{64267:function(e,s,i){e.exports=i.p+"static/media/releaseOrderActive.34efeb6beb9385b20b72.svg"}}]);

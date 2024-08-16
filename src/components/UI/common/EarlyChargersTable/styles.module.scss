@@ -1,0 +1,197 @@
+.ChargesForm {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  .earlyCheckInChargesBody {
+    border: 1px solid #f6f6f6;
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+
+    .offsetStyle {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .labelHeader {
+      background-color: #2a5067;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      width: 100%;
+      border-top-right-radius: 16px;
+      border-top-left-radius: 16px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      padding: 0px 15px;
+      margin: 0;
+    }
+    .heading {
+      background-color: #e2f8fb;
+      width: 100%;
+      font-size: 14px;
+      color: #2a5067;
+      font-weight: 500;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      padding: 0px 15px;
+      line-height: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0px;
+    }
+    .headerline {
+      border-right: 1px solid #d2d3d4;
+      height: 100%;
+      padding-left: 21px;
+      margin-right: 15px;
+    }
+    .headerlinebody {
+      border-right: 1px solid #d2d3d4;
+      height: 100%;
+      padding-left: 0px;
+      margin-right: 15px;
+    }
+    .otherheaderline {
+      border-right: 1px solid #d2d3d4;
+      height: 100%;
+      padding-left: 16px;
+      margin-right: 15px;
+    }
+    .otherheaderlinebody {
+      border-right: 1px solid #d2d3d4;
+      height: 100%;
+    }
+
+    .otherChargesheading {
+      background-color: #e2f8fb;
+      width: 100%;
+      font-size: 14px;
+      color: #2a5067;
+      font-weight: 600;
+      font-weight: 500;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      border-top-right-radius: 16px;
+      border-top-left-radius: 16px;
+      padding: 0px 15px;
+      line-height: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0px;
+    }
+    .tableBorder {
+      width: 100%;
+      border-bottom: 1px solid #f6f6f6;
+    }
+    .styleInputBox {
+      color: #090909;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .styleInputBox::placeholder {
+      color: #a5a8a9;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .chargeTypeName {
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 0px;
+      text-align: left;
+      color: #1e2528 !important;
+    }
+    .chargeTypeName::placeholder {
+      font-weight: 400;
+      color: #a5a8a9;
+    }
+    .amountTypeName {
+      padding: 10px 0px;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 18px;
+      color: #1e2528;
+    }
+    .amountTypeName::placeholder {
+      color: #a5a8a9;
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 400;
+    }
+    .errorMessage {
+      position: absolute;
+      top: 58%;
+      margin-top: 7px;
+      margin-bottom: 0px;
+      color: red;
+      //font-weight:400;
+      font-size: 10px !important;
+    }
+    .earlyCheckEvenrow {
+      height: 44px;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      width: 100%;
+      .deleteColor {
+        color: #bf3939;
+      }
+    }
+    .otherChargesEvenrow {
+      height: 44px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .deleteColor {
+        color: #bf3939;
+      }
+    }
+    .earlyCheckOddrow {
+      padding-left: 20px;
+      width: 100%;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      background-color: #fafbfb;
+    }
+    .earlyCheckLastItem:nth-child(even) {
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+      width: 100%;
+      padding-left: 20px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+    }
+    .earlyCheckLastItem:nth-child(odd) {
+      background-color: #fafbfb;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+      width: 100%;
+      padding-left: 20px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+    }
+    .addChargerIcon {
+      color: #935ed6;
+    }
+  }
+
+  .newChargeType {
+    color: #935ed6;
+    margin: 8px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  hr {
+    border-top: 2px solid #e8e9e9;
+  }
+  .btn {
+    column-gap: 17px;
+  }
+}

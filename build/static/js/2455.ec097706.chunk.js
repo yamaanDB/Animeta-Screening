@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2455],{12455:function(s,e,i){s.exports=i.p+"static/media/upArrow.4c6abf93e5f81056680a.svg"}}]);

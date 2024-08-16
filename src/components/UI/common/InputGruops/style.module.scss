@@ -1,0 +1,48 @@
+.inlineSelect {
+  padding: 0px 10px;
+  transform: scaleX(1.02);
+  background: #ededed;
+  color: #868686;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #a8a8a8 !important;
+  height: 50px;
+  transform-origin: right;
+}
+.enlarged-formControl {
+  transform-origin: left;
+  transform: scaleX(1.02);
+  outline: none !important;
+  color: #161616 !important;
+  height: 50px;
+}
+.enlarged-formControl:focus {
+  box-shadow: none;
+  border: 1px solid #a8a8a8 !important;
+}
+.static-placeholder {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-5%, -50%);
+  color: #bdbdbd;
+  z-index: 10;
+}
+
+.input-group-append::before {
+  content: "times";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ccc;
+  height: 50%;
+  width: 50%;
+}
+.zIndex10 {
+  // z-index: 10 !important;
+}
+.width90 {
+  width: 90% !important;
+}

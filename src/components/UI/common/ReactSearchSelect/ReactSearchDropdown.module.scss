@@ -1,0 +1,164 @@
+.input {
+  font-family: "Barlow";
+  appearance: none;
+  outline: none;
+  border: 1px solid #d2d3d4;
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background-color: #fff !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Barlow";
+  color: #a5a8a9;
+  text-align: inherit;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &.selected {
+    color: #090909;
+    font-weight: bold;
+  }
+
+  &::after {
+    display: none;
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a5a8a9;
+    line-height: 20px;
+  }
+
+  &:focus {
+    border: 1px solid #000;
+  }
+}
+
+.expandIcon {
+  font-family: "Barlow";
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: -2px;
+  color: #000;
+}
+
+.menu {
+  font-family: "Barlow";
+  background-color: white;
+  border-radius: 4px 4px 0 4px;
+  margin-top: 8px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  box-shadow: 4px 4px 20px 0px #d6d6d6cc;
+}
+.blanket {
+  font-family: "Barlow";
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.search_select_wrap {
+  font-family: "Barlow";
+
+  :global {
+    .search_select__control {
+      font-family: "Barlow";
+      min-width: 210px;
+      margin: 8px;
+      border-radius: 10px;
+      background-color: #f6f6f6;
+      border: 0;
+      height: 44px;
+
+      &:focus {
+        border: 1px solid #000;
+      }
+
+      &::placeholder {
+        font-family: "Barlow";
+        font-size: 14px;
+        font-weight: 600;
+        color: #a5a8a9;
+        line-height: 20px;
+      }
+
+      .search_select__input-container {
+        &:focus {
+          border: 1px solid #f9f9f9 !important;
+        }
+
+      }
+
+      .search_select__value-container {
+        font-family: "Barlow";
+        padding: 2px 8px 2px 34px;
+
+        .search_select__placeholder {
+          font-size: 14px;
+          font-weight: 600;
+          font-family: "Barlow";
+        }
+      }
+    }
+
+    .search_select__menu {
+      font-family: "Barlow";
+      box-shadow: 0px 20px 20px 0px #d6d6d6cc;
+      position: relative;
+
+      .search_select__menu-list {
+        max-height: 213px;
+        width: 237px;
+
+        .search_select__option {
+          padding: 12px;
+          font-size: 14px;
+          font-weight: 600;
+          font-family: "Barlow";
+          color: #1b233c;
+          background-color: transparent;
+
+          &.search_select__option--is-selected {
+            font-size: 14px;
+            font-weight: 600;
+            font-family: "Barlow";
+          }
+        }
+      }
+
+      .search_select__menu-list::-webkit-scrollbar {
+        width: 6px;
+        margin-right: 10px;
+      }
+
+      .search_select__menu-list::-webkit-scrollbar-thumb {
+        background-color: #b3b3b3;
+        border-radius: 100px;
+        height: 1px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.iconbtn {
+  position: absolute;
+  top: 13.98px;
+  left: 11.98px;
+  z-index: 1;
+
+  .expandmoreIcon {
+    width: 16.01px;
+    height: 16.01px;
+  }
+}

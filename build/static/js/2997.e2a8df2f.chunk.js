@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2997],{12997:function(s,n,e){s.exports=e.p+"static/media/bellIcon.78d1a099138cbbd5fbb4.svg"}}]);

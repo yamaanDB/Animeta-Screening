@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[1438],{31438:function(s,n,e){s.exports=e.p+"static/media/redInfo1.76b80515ac47987601f4.svg"}}]);

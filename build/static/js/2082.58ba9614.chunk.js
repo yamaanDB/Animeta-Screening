@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2082],{32082:function(n,s,e){e.r(s);e(72791);var i=e(41578),t=e(80184);s.default=function(){return(0,t.jsxs)("div",{className:"container",children:[(0,t.jsx)(i.hlP,{size:100})," Page Not Found"]})}}}]);
+//# sourceMappingURL=2082.58ba9614.chunk.js.map

@@ -1,0 +1,15 @@
+.checkboxInput {
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #522987 !important;
+    accent-color: #522987;
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+}
+
+.dropdownCheckbox {
+    @extend .checkboxInput;
+    margin-top: 0;
+    margin-right: 8px;
+}

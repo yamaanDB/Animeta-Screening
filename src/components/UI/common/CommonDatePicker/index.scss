@@ -1,0 +1,220 @@
+.prefixInputs {
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  height: 45px !important;
+  font-size: 14px !important;
+  padding: 8px 8px 8px 8px;
+
+  gap: 8px;
+
+  &:focus {
+    border: 1.5px solid #000 !important;
+    border-right: 2px solid #000 !important;
+  }
+}
+
+.prefixInputs::placeholder {
+  font-family: "Barlow";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disabled {
+  background: #f9f9f9;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: nowrap !important;
+}
+
+.input-group-text {
+  background: #f9f9f9;
+  border: 1.5px solid #d2d3d4;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 45px !important;
+  font-size: 14px !important;
+
+  .input-period-change {
+    min-width: 75px;
+  }
+}
+
+.input-group-textfield {
+  background: #f9f9f9;
+  border: 1.5px solid #d2d3d4;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 45px !important;
+  font-size: 14px !important;
+
+  .input-period-change {
+    width: auto;
+  }
+}
+
+.hour-header {
+  background-color: #f2faff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  right: 2%;
+  width: 99px;
+  position: absolute;
+  height: 44px;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #1e2528;
+}
+
+.hour-footer {
+  background-color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  right: 2%;
+  width: 98px;
+  position: absolute;
+  height: 256px;
+  z-index: 1001;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: end;
+  color: #bbbbbb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+  justify-content: end;
+  // border-top: 1px solid #DCDCDC;
+}
+
+.applyText-color {
+  color: #935ed6 !important;
+}
+.period-option-tab {
+  overflow-y: scroll;
+  z-index: 10000;
+  position: absolute;
+  background-color: #fff;
+  // height: 90px;
+  right: 14%;
+  border-radius: 10px;
+  text-align: center;
+  width: 58px;
+  margin-top: 5px;
+  border-bottom: 1px solid #d2d3d4;
+  box-shadow: -5px 1px 10px 2px rgba(0, 0, 0, 0.05);
+
+  .Period-option-value {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1e2528;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 0px;
+  }
+
+  .Period-option-value:hover {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1e2528;
+    display: flex;
+    background: #f2f2f2;
+    flex-wrap: nowrap;
+    padding: 10px 0px;
+  }
+  .period-hour {
+    background-color: #eee7f5;
+    color: #391765;
+  }
+
+  .hours-option-value {
+    padding: 10px;
+  }
+}
+
+.hours-option-tab {
+  overflow-y: scroll;
+  z-index: 10000;
+  position: absolute;
+  background-color: #fff;
+  height: 180px;
+  right: 17%;
+  text-align: center;
+  width: 50px;
+  // border-top-left-radius: 10px;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d2d3d4;
+  box-shadow: -5px 1px 10px 2px rgba(254, 254, 254, 0.02);
+
+  .selected-hour {
+    background-color: #eee7f5;
+    color: #391765;
+  }
+
+  .hours-option-value {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    padding: 10px;
+    color: #1e2528;
+  }
+}
+
+.minutes-option-tab {
+  border-bottom: 1px solid #d2d3d4;
+  box-shadow: 5px 1px 10px 2px rgba(253, 253, 253, 0.02);
+  margin-top: 40px;
+  position: absolute;
+  height: 180px;
+  border-left: 1px solid #d2d3d4;
+  overflow-y: scroll;
+  right: 2%;
+  background-color: #ffffff;
+  z-index: 10000;
+  text-align: center;
+  width: 50px;
+
+  // border-top-right-radius: 10px;
+  .selected-hour {
+    background-color: #eee7f5;
+    color: #391765;
+    font-weight: 500;
+  }
+
+  .minutes-option-value {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    padding: 10px;
+    color: #1e2528;
+  }
+}
+
+.hours-option-tab::-webkit-scrollbar,
+.minutes-option-tab::-webkit-scrollbar,
+.period-option-tab::-webkit-scrollbar {
+  width: 0;
+  /* Hide the scrollbar */
+}
+.hours-option-tab::-webkit-scrollbar-thumb,
+.period-option-tab::-webkit-scrollbar-thumb,
+.minutes-option-tab::-webkit-scrollbar-thumb {
+  background: transparent;
+  /* Hide the scrollbar thumb */
+}

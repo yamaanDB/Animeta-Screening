@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[8502],{88502:function(s,n,e){s.exports=e.p+"static/media/bwdIcon.178100c3534916a46ea2.svg"}}]);

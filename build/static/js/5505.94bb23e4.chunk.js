@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[5505],{45505:function(e,s,i){e.exports=i.p+"static/media/servicesAmenities.843a96e4c30bf3e0a399.svg"}}]);

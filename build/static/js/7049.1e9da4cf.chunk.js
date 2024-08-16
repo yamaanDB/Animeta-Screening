@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[7049],{7049:function(e,_,i){i.r(_),_.default={Switch:"Toggle_Switch__rFDje",Thumb:"Toggle_Thumb__Txx0M",active:"Toggle_active__xGvf0"}}}]);
+//# sourceMappingURL=7049.1e9da4cf.chunk.js.map

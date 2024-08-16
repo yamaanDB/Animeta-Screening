@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[1175],{21175:function(e,s,n){e.exports=n.p+"static/media/syntaxBulkAdmin.7233d59b0e9eea909edc.xlsx"}}]);

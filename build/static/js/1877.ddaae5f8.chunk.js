@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[1877],{61877:function(e,o,s){e.exports=s.p+"static/media/bostonLogo_old.7c42ea6b05be3eafe154.svg"}}]);

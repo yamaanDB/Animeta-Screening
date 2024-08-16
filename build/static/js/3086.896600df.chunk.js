@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[3086],{73086:function(e,s,t){e.exports=t.p+"static/media/toggleRed.be0e39c97d85b0792ce1.svg"}}]);

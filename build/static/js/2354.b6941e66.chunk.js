@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2354],{52354:function(e,t,i){e.exports=i.p+"static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf"}}]);

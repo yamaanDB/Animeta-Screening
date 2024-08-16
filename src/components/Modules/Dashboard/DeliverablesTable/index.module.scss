@@ -1,0 +1,42 @@
+// src/components/Modules/Dashboard/DeliverablesTable.module.scss
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 20px ;
+ overflow: hidden; 
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+
+  }
+}
+
+
+input {
+      border: none;
+}
+select {
+      border: none;
+      width: 100%;
+}
+.customSelect {
+  appearance: none; /* Remove default arrow */
+  background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="black" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 9l6 6 6-6"/></svg>') no-repeat right 10px center; /* Add custom arrow */
+  padding-right: 30px; /* Space for the arrow */
+  text-align: left; /* Align the text to the left */
+  text-align-last: left; /* For IE11 and Edge */
+  width: 100%; /* Full width */
+  padding-left: 10px; /* Add some padding to the left */
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}

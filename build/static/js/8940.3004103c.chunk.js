@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[8940],{38940:function(t,i,a){t.exports=a.p+"static/media/Barlow-ExtraLightItalic.032fa71e535475ccb9ea.ttf"}}]);

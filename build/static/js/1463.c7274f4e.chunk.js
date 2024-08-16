@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[1463],{61463:function(s,e,i){s.exports=i.p+"static/media/chevrons-right.eb4ce8d6b981dba8a0c1.svg"}}]);

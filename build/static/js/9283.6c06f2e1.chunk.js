@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[9283],{79283:function(e,s,i){e.exports=i.p+"static/media/ledgerActive.50264b5cf2637610f688.svg"}}]);

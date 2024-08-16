@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[360],{20360:function(e,s,t){e.exports=t.p+"static/media/leftArrow.88e8150fe590a7458110.svg"}}]);

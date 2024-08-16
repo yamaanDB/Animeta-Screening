@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[7826],{17826:function(n,i,a){a.r(i),i.default={table:"UnitNamingTable_table__9Y18E",tableContainer:"UnitNamingTable_tableContainer__OgfPY",container:"UnitNamingTable_container__If239",dropdownArrow:"UnitNamingTable_dropdownArrow__OhwJq",dropdownTable:"UnitNamingTable_dropdownTable__N3d9R",color:"UnitNamingTable_color__gc-PH",inputfield:"UnitNamingTable_inputfield__gxGqP",inputBorder:"UnitNamingTable_inputBorder__X+Kww"}}}]);
+//# sourceMappingURL=7826.c559a314.chunk.js.map

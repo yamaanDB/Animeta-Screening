@@ -1,0 +1,119 @@
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: solid 6px #421f70;
+  background-image: rgba(85, 22, 164, 0.13);
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  animation: spin 1s infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-wrapper {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* PageLoader.css */
+.rotating-image {
+  width: 50px;
+  height: 50px;
+  animation: rotate 1s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.spin {
+  background: transparent;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 0;
+  -webkit-animation: spin2 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.spin > div:not(.spin__blocker) {
+  width: 50%;
+  height: 50%;
+  z-index: -1;
+}
+.spin__blocker {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  margin: -1px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: white;
+  width: 84% !important;
+  height: 83% !important;
+  border-radius: 100%;
+}
+.spin__bottom-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: -webkit-linear-gradient(top left, #5516a421 0% #421f70 10%);
+  background: linear-gradient(to bottom right, #421f70 10%, #421f70 10%);
+}
+.spin__bottom-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: -webkit-linear-gradient(bottom left, #5516a421 0% #421f70 10%);
+  background: linear-gradient(to top right, #421f70 10%, #5516a421 100%);
+}
+.spin__top-left {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: -webkit-linear-gradient(top left, #5516a421 0%, #421f70 100%);
+  background: linear-gradient(to bottom right, #5516a421 0%, #421f70 1000%);
+}
+
+.spin__blocker {
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+}

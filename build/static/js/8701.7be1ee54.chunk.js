@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[8701],{8701:function(s,a,e){s.exports=e.p+"static/media/roomPackages.c2664a5611a8545f5627.svg"}}]);

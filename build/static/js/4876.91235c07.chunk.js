@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[4876],{44876:function(e,s,i){e.exports=i.p+"static/media/ledgerIA.7b67978ad201e96ece8b.svg"}}]);

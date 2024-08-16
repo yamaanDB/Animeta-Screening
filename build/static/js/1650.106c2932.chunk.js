@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[1650],{11650:function(s,e,i){s.exports=i.p+"static/media/rooms_beds.88d42123e3b3e15f5f8a.svg"}}]);

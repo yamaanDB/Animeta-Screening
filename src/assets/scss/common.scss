@@ -1,0 +1,294 @@
+* {
+  font-family: "Inter", "Barlow";
+  box-sizing: border-box;
+}
+
+.authLayout {
+  background-color: #f5f7fb;
+  min-height: 100dvh;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1312px;
+}
+
+.vvip_icon_box {
+  width: 30px !important;
+  height: 30px !important;
+
+  img {
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+}
+
+.main {
+  width: 100%;
+  padding-right: 55px;
+  padding-left: 18px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1312px;
+}
+
+.mainLayout {
+  // background: #f0f0f0;
+  min-height: 100dvh;
+  font-family: "Inter";
+}
+
+.scroll-x {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ant-upload-list-none-container {
+  display: none;
+}
+
+.timerBox {
+  background: transparent;
+  border: 1px solid gray;
+  padding: 2px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.timeDisplayBox {
+  background: white;
+  font-size: 20px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+
+  .seperateBox {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+
+    .seperateBox_one {
+      overflow-y: scroll;
+      height: 250px;
+      width: 35%;
+    }
+
+    .seperateBox_two {
+      overflow-y: scroll;
+      height: 250px;
+      width: 35%;
+    }
+
+    .seperateBox_three {
+      width: 30%;
+    }
+
+    .active_box {
+      display: flex;
+      justify-content: center;
+      background: #1890ff;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      height: 40px;
+      width: 40px;
+      margin: auto;
+      align-items: center;
+    }
+
+    .inActive_box {
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .smallOk_btn {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    background: #0655a3;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.common-title {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  width: 100%;
+  color: #367bbf;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+}
+
+.common-subtitle {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  color: #367bbf;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+}
+
+.common-subtitle1 {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  color: #367bbf;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+}
+
+label {
+  font-family: "Barlow";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1E2528;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.dropdown-menu {
+  width: 100% !important;
+}
+
+.preview-value {
+  @extend .B3-Medium;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  // width: 100px
+  // min-height: 50px;
+  // max-height: 50px;
+}
+.preview-value1 {
+  @extend .B3-Medium;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #151718;
+  // width: 100px
+  // min-height: 50px;
+  // max-height: 50px;
+}
+.preview-value2 {
+  @extend .B3-Medium;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #1E2528;
+  // width: 100px
+  // min-height: 50px;
+  // max-height: 50px;
+}
+
+
+.preview-label {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #787C7E;
+  // margin-bottom: 0px;
+}
+
+.B4-Medium {
+  //styleName: Body Text/B4-Medium;
+  font-family: "Barlow";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.B4-Semi-bold {
+  //styleName: Body Text/B4-Medium;
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.B3-Medium {
+  //styleName: Body Text/B3-Medium;
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.B3-Semi-bold {
+  //styleName: Body Text/B3-Semi bold;
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.B2-Semi-bold {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: Barlow;
+}
+
+.B1-regular {
+  font-size: 12px;
+  line-height: 19px;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */
+}
+
+.capitalize-text {
+  text-transform: capitalize !important;
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[1244],{31244:function(s,e,a){s.exports=a.p+"static/media/loaderImg.d9a351f282279a8e3a64.svg"}}]);

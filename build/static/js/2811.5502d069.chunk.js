@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2811],{32811:function(s,e,t){s.exports=t.p+"static/media/truck.20db2f360be15173e528.svg"}}]);

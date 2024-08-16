@@ -1,0 +1,62 @@
+.circleIcon {
+    background-image: url("../../../../assets/icons/add.svg");
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+}
+.saveBtn {
+    background-color:#1E2528;
+    padding: 9px 47.5px;
+    border-radius: 8px;
+    max-width: 120px;
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.inputContainer {
+    min-width: 230px;
+    max-width: 293px;
+    display: flex;
+    gap: 10px;
+}
+.withoutIcon {
+    max-width: 248px;
+}
+
+.addIcon {
+    padding: 10px
+}
+.circleAdd {
+    font-size: 22px;
+}
+.circleDelete {
+    width: 20px;
+    height: 18px;
+}
+.iconbtn {
+    border: 1px solid#D2D3D4;
+    border-radius: 8px;
+    color: #935ED6;
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+}
+.deleteIconBtn {
+    border: 1px solid#D2D3D4;
+    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+}
+.dialogcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

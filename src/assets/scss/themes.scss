@@ -1,0 +1,52 @@
+$themes: (
+  light: (
+    bg: #f5fcff,
+    fg: #002433,
+    sidebar: (
+      backgroundColor: "#ffffff",
+      color: "#607489",
+      top: "92px",
+      left: "24px",
+      borderRadius: "16px",
+    ),
+    menu: (
+      menuContent: "#fbfcfd",
+      icon: "#0098e5",
+      hover: (
+        backgroundColor: "#c5e4ff",
+        color: "#44596e",
+      ),
+      active: (
+        backgroundColor: "red",
+        color: "#44596e",
+      ),
+      disabled: (
+        color: "#9fb6cf",
+      ),
+    ),
+  ),
+  dark: (
+    bg: #1E2528,
+    fg: #f5fcff,
+    sidebar: (
+      backgroundColor: "#1E2528",
+      color: "#8ba1b7",
+      borderRadius: "50px",
+    ),
+    menu: (
+      menuContent: "#082440",
+      icon: "#59d0ff",
+      hover: (
+        backgroundColor: "#00458b",
+        color: "#b6c8d9",
+      ),
+      active: (
+        backgroundColor: "red",
+        color: "#44596e",
+      ),
+      disabled: (
+        color: "#3e5e7e",
+      ),
+    ),
+  ),
+);

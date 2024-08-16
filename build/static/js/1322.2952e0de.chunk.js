@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[1322],{11322:function(e,s,i){e.exports=i.p+"static/media/approvedTick.f587f8d9b65aae60669e.svg"}}]);

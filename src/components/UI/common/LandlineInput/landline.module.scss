@@ -1,0 +1,178 @@
+.inputgroup {
+  height: 45px;
+  font-family: "Barlow";
+  font-size: 14px;
+  font-weight: 600;
+
+  :global {
+    .dropdown-menu {
+      max-height: 300px !important;
+      overflow: auto !important;
+
+      &::-webkit-scrollbar {
+        width: 0.3em;
+      }
+
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(91, 90, 90, 0.2);
+        border-radius: 5%;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(209, 204, 204);
+        outline: 0.2px solid rgb(183, 186, 189);
+        border-radius: 5%;
+      }
+    }
+
+  }
+}
+
+.inputgrouptext {
+  font-family: "Barlow";
+  font-weight: 600;
+  background-color: #f6f6f6;
+  border: none;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 45px !important;
+  font-size: 14px !important;
+
+  .searchbtn {
+    font-family: "Barlow";
+    margin: auto;
+    border: none;
+    background-color: none;
+
+    .searchIcon {
+      width: 16.01px;
+      height: 16.01px;
+      color: #1e2528;
+    }
+  }
+}
+
+.dropdownInput {
+  font-family: "Barlow";
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Barlow";
+  line-height: 20px;
+  color: #090909;
+
+  &:focus {
+    border-color: #1e2528;
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Barlow";
+    line-height: 20px;
+    color: #a5a8a9;
+  }
+}
+
+.dropdownBtn {
+  font-family: "Barlow";
+  border-radius: 7px 0px 0px 7px;
+  padding: 8px 8px 8px 8px;
+  background-color: #f6f6f6;
+  border-color: #dee2e6;
+  box-shadow: none;
+  border-right: 0;
+  appearance: none;
+  border-style: solid;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Barlow";
+  line-height: 20px;
+  color: #1e2528;
+  position: relative;
+
+  &::after {
+    display: none;
+  }
+
+  &.show {
+    background-color: #1e2528;
+    color: #fff;
+    border-color: #1e2528;
+
+    .dropdwnIndicator {
+      .dropdownIcon {
+        color: #fff;
+        min-width: 20px;
+      }
+    }
+  }
+
+}
+
+.dropdwnIndicator {
+  font-family: "Barlow";
+  display: flex;
+  align-items: center;
+
+  .dropdownIcon {
+    min-width: 20px;
+  }
+}
+
+.searchInput {
+  font-family: "Barlow";
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: #f6f6f6;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+
+  &:focus {
+    box-shadow: none;
+    background-color: #f6f6f6;
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: "Barlow";
+    color: #a5a8a9;
+  }
+}
+
+.dropdown-menu {
+  width: 100% !important;
+}
+
+.dropdownItem {
+  font-family: "Barlow";
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 100%; 
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  .countryCode {
+    width: 50px;
+    display: inline-block;
+    text-align: end;
+  }
+}
+
+.SearchDropdownItem {
+  @extend .dropdownItem;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+}

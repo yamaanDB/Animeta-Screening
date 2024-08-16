@@ -1,0 +1,37 @@
+/* CustomMultiSelect.css */
+.custom-select .custom-select__menu {
+    background-color: #fff; /* Background color of the dropdown menu */
+  }
+  
+  .custom-select .custom-option {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+  }
+  
+  .custom-select .custom-option .custom-option-checkbox {
+    margin-right: 8px;
+  }
+  
+  .custom-select .custom-option:hover {
+    background-color: #e0e0e0; /* Background color of hovered options */
+  }
+  
+  .custom-select .custom-multi-value {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0; /* Background color of selected values */
+    padding: 2px 8px;
+    margin: 2px;
+    border-radius: 4px;
+  }
+  
+  .custom-select .custom-multi-value .custom-multi-value-label {
+    margin-right: 8px;
+  }
+  
+  /* Hide the default close button on selected values */
+  .custom-select .custom-multi-value .custom-multi-value-remove {
+    display: none;
+  }
+  

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[4139],{64139:function(e,s,n){e.exports=n.p+"static/media/deleteRedIcon.29f891295e2fa41aa7b0.svg"}}]);

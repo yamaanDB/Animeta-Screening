@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2807],{22807:function(s,e,n){s.exports=n.p+"static/media/clockIcon.e21af4f04968508d6e65.svg"}}]);

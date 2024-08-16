@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[676],{676:function(s,i,n){s.exports=n.p+"static/media/Pdfmail.dcd68998ac3101f3b8bb.svg"}}]);

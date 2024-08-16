@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[2344],{32344:function(n,o,t){t.r(o),t.d(o,{axiosInstance:function(){return i},logout:function(){return r}});var e=t(31243),a=t(58300),i=e.Z.create({headers:{}}),r=function(){i.defaults.headers.common.Authorization="",localStorage.clear(),a.history.push("/"),window.location.reload(!0)}}}]);
+//# sourceMappingURL=2344.31bf0da8.chunk.js.map

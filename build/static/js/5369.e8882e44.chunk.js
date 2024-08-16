@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[5369],{75369:function(n,s,t){n.exports=t.p+"static/media/commentIconLight.837a63e75fa159f8c0b6.svg"}}]);

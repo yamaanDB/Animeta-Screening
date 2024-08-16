@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkBoston_Living=self.webpackChunkBoston_Living||[]).push([[8577],{8577:function(_,e,n){n.r(e),e.default={card:"AddUnits_card__YVioz",labelColor:"AddUnits_labelColor__CLxYN",bg_grey:"AddUnits_bg_grey__je-v5","bg_grey-1":"AddUnits_bg_grey-1__ze8rO"}}}]);
+//# sourceMappingURL=8577.61e4a082.chunk.js.map
