@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom/client";
 import Routes from "./routes/index";
 import { Provider } from "react-redux";
 import { persistor, store } from "./redux";
@@ -19,8 +19,8 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-          <CssBaseline />
-          <Routes />
+        <CssBaseline />
+        <Routes />
       </PersistGate>
     </Provider>
   </React.StrictMode>
